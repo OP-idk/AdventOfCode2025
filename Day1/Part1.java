@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.io.File;
-public class C1 {
+public class Part1 {
     public static void main(String[] args) {
 
         try (Scanner s = new Scanner(new File("input"))) {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.io.File;
-public class C2 {
+public class Part2 {
     public static void main(String[] args) {
 
         try (Scanner s = new Scanner(new File("input"))) {
@@ -11,7 +11,7 @@ public class C2 {
                 int dir = next.substring(0,1).equals("R") ? 1 : -1;
                 int clicks = Integer.parseInt(next.substring(1));
                 for (int i = 0; i < clicks; i++) {
-                    System.out.println(position);
+                    //System.out.println(position);
                     if (position == 0 || position == 100) {
                         position = dir == 1 ? 0 : 100;
                         password++;
