@@ -83,7 +83,7 @@ public class Day2 {
     }
 
     // Help from https://stackoverflow.com/a/3760193
-    private static String[] splitByLength(String str, int len) {
+    public static String[] splitByLength(String str, int len) {
         int numRets = str.length() / len;
         String[] ret = new String[numRets];
         for (int i = 0; i < numRets; i++) {
