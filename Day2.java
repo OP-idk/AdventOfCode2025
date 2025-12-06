@@ -1,9 +1,13 @@
 import java.util.Scanner;
 import java.io.File;
 import java.util.ArrayList;
-public class Part1 {
+public class Day2 {
     public static void main(String[] args) {
-        try (Scanner s = new Scanner(new File("input"))) {
+        System.out.println("Part 1 Answer: " + part1());
+    }
+
+    public static String part1() {
+        try (Scanner s = new Scanner(new File("input2"))) {
             String[] rangeStrings = s.nextLine().split(",");
             ArrayList<Long> invalids = new ArrayList<Long>();
 
@@ -26,11 +30,10 @@ public class Part1 {
             for (Long l : invalids) {
                 sum += l;
             }
-            System.out.println(sum);
+            return "" + sum;
             
         } catch (Exception e) {
-            System.out.println(e.getMessage());
-            return;
+            return e.getMessage();
         }
     }
 }
