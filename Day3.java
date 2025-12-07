@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 public class Day3 {
     public static void main(String[] args) {
-        //System.out.println("Part 1 Answer: " + part1());
+        System.out.println("Part 1 Answer: " + part1());
         System.out.println("Part 2 Answer: " + part2());
     }
 
