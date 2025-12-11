@@ -39,6 +39,8 @@ public class Day2 {
         }
     }
 
+// NOO YOU'RE SUPPOSED TO OBEY MEEEEEE
+// The four nested for loops:
     public static String part2() {
         try (Scanner s = new Scanner(new File("input2"))) {
             String[] rangeStrings = s.nextLine().split(",");
